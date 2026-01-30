@@ -1,0 +1,10 @@
+Flask
+flask-cors
+flask-mail
+mysqlclient
+razorpay
+APScheduler
+py-eureka-client
+setuptools==75.1.0 #specify the version if needed
+pymysql
+dotenv
