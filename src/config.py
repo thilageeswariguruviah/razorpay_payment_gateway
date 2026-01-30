@@ -26,8 +26,9 @@ class Config:
     razorpay_client = razorpay.Client(auth=(RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET))
 
     # Database names
-    MYSQL_DB_PAYMENT = "ielts_payment"
-    MYSQL_DB_IELTS = "ielts_database"
+    MYSQL_DB_PAYMENT = "payment"
+    MYSQL_DB = "database"
 
     # MongoDB Config
     MONGO_URI = os.getenv("MONGO_URI")
+
