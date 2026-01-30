@@ -1,6 +1,6 @@
-# IELTSGenAI Payment Service
+# razorpay Payment Service
 
-A Flask-based payment service for managing subscription plans, payments, and user notifications for the IELTSGenAI platform.
+A Flask-based payment service for managing subscription plans, payments, and user notifications for the  razorpay platform.
 
 ## System Architecture
 
@@ -168,4 +168,5 @@ expiry_map = {
 - **2-Day Warning**: Emails sent when 2 days remain
 - **Expiry Notice**: Emails sent when plan expires
 - **HTML Templates**: Styled email templates for professional communication
+
 
